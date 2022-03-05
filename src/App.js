@@ -1,13 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import Basic1 from './components/Basic1'
+import Basic2 from './components/Basic2'
+import Basic3 from './components/Basic3'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Basic1 />
+        <Basic1 name="aaa" price="10000"/>
+        <Basic2/>
+        <Basic3/>
       </header>
     </div>
   );
