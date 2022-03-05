@@ -1,10 +1,11 @@
 import React from 'react'
 
-const Basic1 = () => {
+const Basic1 = (props) => {
   return (
     <div>
-        <h1>React Basic h1</h1>
-        <p>リアクトのベーシック１</p>
+        <h1>props</h1>
+        <p>name: {props.name}</p>
+        <p>price: {props.price}</p>
     </div>
   )
 }
