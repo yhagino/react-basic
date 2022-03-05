@@ -8,7 +8,7 @@ const Basic3 = () => {
 
   return (
     <div>
-        <h1>useState</h1>
+        <h1>useState2</h1>
         <form>
             <input type='text' value={products.name}
             onChange={evt=>setProducts({...products, name: evt.target.value})} />
